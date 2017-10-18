@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="response">
+        <item>我知道</item>
+        <item>少狗腿</item>
+        <item>大家都這麼說</item>
+    </string-array>
+    <array name="nba_logos">
+        <item>@drawable/nba_logo_knicks</item>
+        <item>@drawable/nba_logo_magic</item>
+        <item>@drawable/nba_logo_pistons</item>
+        <item>@drawable/nba_logo_spurs</item>
+        <item>@drawable/nba_logo_nets</item>
+        <item>@drawable/nba_logo_clippers</item>
+        <item>@drawable/nba_logo_76ers</item>
+        <item>@drawable/nba_logo_suns</item>
+        <item>@drawable/nba_logo_hornets</item>
+        <item>@drawable/nba_logo_raptors</item>
+        <item>@drawable/nba_logo_lakers</item>
+        <item>@drawable/nba_logo_warriors</item>
+    </array>
+    <string-array name="nba_logo_name">
+        <item>knicks</item>
+        <item>magic</item>
+        <item>pistons</item>
+        <item>spurs</item>
+        <item>nets</item>
+        <item>clippers</item>
+        <item>76ers</item>
+        <item>suns</item>
+        <item>hornets</item>
+        <item>raptors</item>
+        <item>lakers</item>
+        <item>warriors</item>
+    </string-array>
+    <string-array name="question_1">
+        <item>請問\"1\" + 1 的結果是?</item>
+        <item>編譯失敗</item>
+        <item>2</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="question_2">
+        <item>請問 merge 在android layout 的用途?</item>
+        <item>根本沒有這個功能</item>
+        <item>將一個 layout 併入另一個 layout,可節省一層 ViewGroup</item>
+        <item>版本控制系統用來合併不同的分支</item>
+    </string-array>
+    <string-array name="question_3">
+        <item>請問 切換 Activity 要呼叫哪個方法</item>
+        <item>startActivity()</item>
+        <item>startActivityForResult()</item>
+        <item>以上皆是</item>
+    </string-array>
+    <string-array name="lab08_coffee_title">
+        <item>cappuccino</item>
+        <item>latte</item>
+        <item>macchiato</item>
+        <item>mocha</item>
+    </string-array>
+    <array name="lab08_coffee_image">
+        <item>@drawable/coffee_cappuccino</item>
+        <item>@drawable/coffee_latte</item>
+        <item>@drawable/coffee_macchiato</item>
+        <item>@drawable/coffee_mocha</item>
+    </array>
+</resources>

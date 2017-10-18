@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <string name="team_a_name">黃蜂</string>
+    <string name="team_b_name">火箭</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="question_1">請問 \u00A0 \"1\" + 1 \u00A0 的結果是?</string>
+    <string name="question_1_radio_a">編譯失敗</string>
+    <string name="question_1_radio_b">2</string>
+    <string name="question_1_radio_c">11</string>
+
+    <string name="question_2">
+        <![CDATA[
+        請問
+        <br><br>
+        \u00A0 <b> <font color = "blue"> &lt; merge &gt; </font> </b>
+        <br><br>
+        在android layout 的用途?
+        ]]>
+    </string>
+    <string name="question_2_radio_a">根本沒有這個功能</string>
+    <string name="question_2_radio_b">將一個 layout 併入另一個 layout,可節省一層 ViewGroup</string>
+    <string name="question_2_radio_c">版本控制系統用來合併不同的分支</string>
+
+    <string name="question_3">請問 切換 Activity 要呼叫哪個方法</string>
+    <string name="question_3_radio_a">startActivity()</string>
+    <string name="question_3_radio_b">startActivityForResult()</string>
+    <string name="question_3_radio_c">以上皆是</string>
+    <string name="title_activity_lab08__spinner">Lab08_Spinner</string>
+</resources>

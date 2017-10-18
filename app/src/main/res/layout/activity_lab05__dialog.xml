@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.student.test.Lab05_Dialog.Lab05_Dialog"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+
+        android:text="Hello World!" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="clickAlertDialog"
+
+        android:text="AlertDialog OK" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="clickAlertDialogYesNo"
+
+        android:text="AlertDialog YES-NO" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="clickAlertDialogYesNoCancel"
+
+        android:text="AlertDialog YES-NO-CANCEL" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="clickAlertDialogItems"
+
+        android:text="AlertDialog Items" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="clickAlertDialogMultiChoice"
+
+        android:text="AlertDialog MultiChoice" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="clickAlertDialogSingleChoice"
+
+        android:text="AlertDialog SingleChoice" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="clickMyDialogFragment"
+
+        android:text="MyDialogFragment" />
+</LinearLayout>

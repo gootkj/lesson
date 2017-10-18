@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp"
+    tools:context="com.example.student.test.MainActivity">
+
+        <Button
+            android:id="@+id/Lab01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lab01_View"
+            android:layout_marginBottom="16dp"
+            android:onClick="myClick"/>
+
+        <Button
+            android:id="@+id/Lab02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lab02_Order"
+            android:layout_marginBottom="16dp"
+            android:onClick="myClick"/>
+
+        <Button
+            android:id="@+id/Lab03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:layout_marginBottom="16dp"
+            android:text="Lab03_CourtCounter" />
+
+        <Button
+            android:id="@+id/Lab04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:layout_marginBottom="16dp"
+            android:text="Lab04_ColrePickerActive" />
+
+        <Button
+            android:id="@+id/Lab05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:layout_marginBottom="16dp"
+            android:text="Lab05_Dialog" />
+
+        <Button
+            android:id="@+id/Lab06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:layout_marginBottom="16dp"
+            android:text="Lab06_AnimationDrable" />
+
+        <Button
+            android:id="@+id/Lab07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:layout_marginBottom="16dp"
+            android:text="Lab07_Quizzes" />
+
+        <Button
+            android:id="@+id/Lab08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:layout_marginBottom="16dp"
+            android:text="Lab08_Spinner" />
+
+</LinearLayout>

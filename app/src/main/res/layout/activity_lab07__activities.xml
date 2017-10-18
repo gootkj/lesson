@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.test.Lab07_Quizzes.Lab07_Activities"
+
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragment_question"-->
+        <!--android:name="com.example.student.test.Lab07_Quizzes.Lab07_ActivitiesFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--tools:layout = "@layout/fragment_lab07__activities"-->
+        <!--/>-->
+    <include android:id="@+id/question_qnswer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/lab07_question_answer"></include>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:onClick="onClick"
+        android:text="NEXT" />
+
+</LinearLayout>

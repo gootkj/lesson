@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/holo_purple"
+    tools:context="com.example.student.test.Lab01_View.Lab01_View">
+
+    <TextView
+        android:id="@+id/tom"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="TOM"
+        android:textSize="36sp"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="false"
+        android:background="@android:color/holo_blue_bright"
+        />
+
+    <TextView
+        android:id="@+id/kevin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tom"
+        android:padding="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="0"
+        android:background="@android:color/holo_green_light"
+        android:text="KEVIN" />
+
+    <TextView
+        android:id="@+id/amy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:layout_weight="0"
+        android:background="@android:color/holo_orange_dark"
+        android:text="AMY" />
+
+    <TextView
+        android:id="@+id/jimmy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/amy"
+        android:layout_alignParentRight="true"
+        android:layout_weight="0"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="JIMMY" />
+</RelativeLayout>

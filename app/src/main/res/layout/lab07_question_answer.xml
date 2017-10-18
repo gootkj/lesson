@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_question_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="96sp"
+        android:layout_marginBottom="16dp"
+
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_marginBottom="16dp"
+
+        android:text="這裡是題目?" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Large"
+
+            android:tag="A"
+            android:text="A 答案" />
+
+        <RadioButton
+            android:id="@+id/radio_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Large"
+
+            android:tag="B"
+            android:text="B 答案" />
+
+        <RadioButton
+            android:id="@+id/radio_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Large"
+
+            android:tag="C"
+            android:text="C 答案" />
+
+    </RadioGroup>
+
+</merge>

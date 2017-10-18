@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--畫面左上角原點預設為 ( 0 , 0 )-->
+    <!--Xdelta (x 座標) = "100%p"-->
+        <!--p 的意思是 parent-->
+        <!--100% 意思是 x 座標值 = 父親視窗的寬度 100% ，若父親視窗寬度為 1024 px ，x = 1024 px-->
+    <!--Alpha 是透明度，0.0 代表完全透明，1.0 代表無透明-->
+    <!--duration 是動畫持續時間(毫秒)-->
+    <translate android:fromXDelta="100%p" android:toXDelta="0" android:duration="500"></translate>
+    <translate android:fromYDelta="50%p" android:toYDelta="0" android:duration="500"></translate>
+    <alpha android:fromAlpha="0.0" android:toAlpha="1.0" android:duration="500"></alpha>
+</set>

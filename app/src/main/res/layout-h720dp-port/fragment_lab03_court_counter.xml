@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.test.Lab03_Fragment.Lab03_CourtCounterFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/teamLogo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/team_a_logo"/>
+
+        <TextView
+            android:id="@+id/teamName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/team_a_name" />
+
+        <TextView
+            android:id="@+id/teamScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="56sp" />
+
+        <Button
+            android:id="@+id/btn_three_point"
+            style="@style/MyButtonStyle"
+            android:text="+3 分球" />
+
+        <Button
+            android:id="@+id/btn_two_point"
+            style="@style/MyButtonStyle"
+            android:text="+2 分球" />
+
+        <Button
+            android:id="@+id/btn_one_point"
+            style="@style/MyButtonStyle"
+            android:text="罰球" />
+
+    </LinearLayout>
+
+</FrameLayout>

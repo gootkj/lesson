@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.student.test.Lab03_Fragment.Lab03_CourtCounter"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/fragment_team_a"
+            android:name="com.example.student.test.Lab03_Fragment.Lab03_CourtCounterFragment"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            tools:layout ="@layout/fragment_lab03_court_counter"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
+
+        <fragment
+            android:id="@+id/fragment_team_b"
+            android:name="com.example.student.test.Lab03_Fragment.Lab03_CourtCounterFragment"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            tools:layout ="@layout/fragment_lab03_court_counter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_reset"
+            style="@style/MyButtonStyle"
+            android:layout_gravity="center"
+            android:onClick="myClick"
+            android:text="重製" />
+    </LinearLayout>
+
+</LinearLayout>
